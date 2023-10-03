@@ -1,5 +1,8 @@
-body {
+
+#content {
+    max-width: 1600px;
     background-color: beige;
+    margin: 0 auto;
 }
 
 /*Menu*/
@@ -14,6 +17,45 @@ a{
     text-decoration: none;
     padding: 10px;
     margin: 5px;
+    text-align: center;
 }
 
+a:hover {
+    background-color: darkgray;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+}
+
+p {
+    width: 40%;
+    margin: 10px auto;
+}
+
+footer {
+    background-color: lightblue;
+    color: rgb(71,68,69);
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+}
+
+footer p {
+    text-align: center;
+}
 /*Main*/
