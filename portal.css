@@ -1,4 +1,13 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+body {
+    font-family: Ubuntu;
+    padding: 0;
+    margin: 0;
+
+}
+
 #content {
     max-width: 1600px;
     background-color: beige;
@@ -33,7 +42,10 @@ nav {
 img {
     width: 50%;
     display: block;
+    border: 3px solid lightblue;
     margin: 0 auto;
+    padding: 40px;
+    box-sizing: border-box;
 }
 
 h1 {
@@ -44,6 +56,8 @@ h1 {
 p {
     width: 40%;
     margin: 10px auto;
+    padding: 10px;
+    box-sizing: border-box;
 }
 
 footer {
