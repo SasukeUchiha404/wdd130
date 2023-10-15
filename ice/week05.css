@@ -1,0 +1,15 @@
+header img {
+    width: 100%;
+}
+
+#circles {
+    border: 25px solid rgb(97, 97, 97);
+    border-radius: 50%;
+    margin: 0 auto;
+    width: 25%;
+}
+
+#content {
+    background-color: rgb(133, 133, 133);
+    text-align: center;
+}
