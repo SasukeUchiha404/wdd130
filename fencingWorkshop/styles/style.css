@@ -1,7 +1,7 @@
 .home-grid {
     display: grid;
     grid-template-columns:  repeat(10, 1fr);
-
+    padding-bottom: 70px;
 }
 
 #hero {
@@ -154,7 +154,6 @@ main section {
 
 #backgound {
 
-    l: 725px;
     grid-column: 1/11;
     grid-row: 4/9;
 
@@ -188,7 +187,6 @@ header {
 footer {
     background-color: #000000;
     padding: 25px 50px;
-    margin: 200px;
     display: flex;
     justify-content: space-around;
     align-items: center;
