@@ -4,12 +4,6 @@
     padding-bottom: 70px;
 }
 
-#hero {
-
-    padding-left: 150px;
-    padding-right: 150px;
-}
-
 .home-title {
 
     font-size: 2em;
@@ -39,6 +33,9 @@ main section img {
     box-sizing: border-box;
 }
 
+main , #event, #hero {
+    background-color: #8F754F;
+}
 
 nav {
     display: flex;
@@ -84,12 +81,67 @@ nav a:hover {
     justify-self: auto;
 } 
 
+.about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.about-fencing-card {
+    grid-column: 1/4;
+}
+
+.fencing-box {
+    display: flex;
+}
+
+#about-fencing-title{
+    padding: 50px;
+    margin: 0 auto;
+}
+
+.about-fencing-img {
+    grid-column: 1/3;
+    width: 1000px;
+    padding: 25px;
+    margin-left: 25px;
+}
+
+.about-fencing-msg {
+    text-align: justify;
+    width: 750px;
+    margin-top: 175px;
+    margin-left: -250px;
+    color: #F6F7EB;
+}
+
+.about-us-card {
+    grid-column: 1/4;
+}
+
+.us-box {
+    display: flex;
+}
+
+.about-us-msg{
+    width: 600px;
+    text-align: justify;
+    padding: 25px;
+    margin-left: 300px;
+    margin-top: 150px;
+}
+
+.about-us-img{
+    width: 400px;
+    padding: 25px;
+}
 
 #hero {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 400px;
     justify-content: center;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 #event {
@@ -109,7 +161,6 @@ nav a:hover {
 #event-box {
     grid-column: 1/4;
     grid-row: 2/4;
-    z-index: -1;
     margin: 0 auto;
     margin-top: -50px;
     margin-bottom: 75px;
@@ -147,7 +198,6 @@ nav a:hover {
 #hero-box {   
     grid-column: 1/4;
     grid-row: 1/3;
-    z-index: -1;
     padding-top: 70px;
     padding-bottom: 70px;
     
