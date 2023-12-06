@@ -77,8 +77,9 @@ nav a:hover {
 }
 
 #hero-msg h1, h4 {
-    color: white;
+    color: #F6F7EB;
     justify-self: auto;
+    z-index: 3;
 } 
 
 .about-grid {
@@ -112,6 +113,7 @@ nav a:hover {
     margin-top: 175px;
     margin-left: -250px;
     color: #F6F7EB;
+    z-index: 3;
 }
 
 .about-us-card {
@@ -265,8 +267,13 @@ footer p {
     color: #F6F7EB;
 }   
 
+footer p a {
+    color: #F6F7EB;
+}
+
 footer p a:hover {
     text-decoration: underline;
+    color: #F6F7EB;
 }    
 
 #logo_link {
