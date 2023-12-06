@@ -71,9 +71,11 @@ nav a:hover {
 
 
 #hero-msg {
-    grid-column: 2/3;
+    grid-column: 1/4;
     grid-row: 2/3;
-    margin-top: 65px;
+    padding-top: 50px;
+    font-size: larger;
+    margin: 0 auto;
 }
 
 #hero-msg h1, h4 {
