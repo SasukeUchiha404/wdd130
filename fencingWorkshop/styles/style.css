@@ -73,13 +73,13 @@ nav a:hover {
 #hero-msg {
     grid-column: 2/3;
     grid-row: 2/3;
-    margin-top: 100px;
+    margin-top: 65px;
 }
 
 #hero-msg h1, h4 {
     color: #F6F7EB;
     justify-self: auto;
-    z-index: 3;
+    z-index: 4;
 } 
 
 .about-grid {
